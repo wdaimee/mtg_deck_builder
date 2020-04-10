@@ -81,6 +81,12 @@ ul ul a {
     min-height: 100vh;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 @media (max-with: 768px) {
     #sidebar {
         margin-left: -250px;
