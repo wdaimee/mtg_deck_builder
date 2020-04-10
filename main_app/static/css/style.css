@@ -63,18 +63,22 @@ ul ul a {
 
 .wrapper {
     display: flex;
-    width: 100%;
     align-items: stretch;
 }
 
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    min-height: 100vh;
 }
 
 #sidebar.active {
     margin-left: -250px;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
 }
 
 @media (max-with: 768px) {
